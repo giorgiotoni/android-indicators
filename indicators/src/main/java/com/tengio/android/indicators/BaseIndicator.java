@@ -154,10 +154,16 @@ public class BaseIndicator extends View{
         return selectedPaint;
     }
 
+    /**
+     * default value: 1F
+     * */
     public void setIndicatorSize(float newSize) {
         cxSize = newSize * density;
     }
 
+    /**
+     * default value: 4F
+     * */
     public void setSelectedIndicatorSize(float newSize) {
         cxSelectedSize = newSize * density;
     }
